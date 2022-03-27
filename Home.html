@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <style>
+      body{
+       
+           background-color: black;
+        }
+
+        .navbar {
+            float: right;
+            height: 30px;
+            padding: 15px;
+            margin-left: 30px;
+           
+
+        }
+        ul{
+           list-style-type: none;/*use to remove disc/dots of list items*/
+           overflow: hidden;
+           margin: 0;/*use to give zero spacing to left hand side*/
+            padding: 0;
+         
+           
+        }
+        li, a{
+            text-decoration: none;/*used to remove that underline */
+            text-align: center;
+            font-size: 30px;
+            display: inline-block;
+            padding: 20px;
+            text-decoration: none;
+            color: white;
+        }
+        a:hover {
+  background-color: rgb(112, 112, 85);
+}
+ .display-1{
+padding-top: 200px;
+text-align: center;
+margin-left: 20px;
+color: white;
+ } 
+ .display-3{
+text-align: left;
+padding-top: 200px;
+margin-left: 20px;
+color: white;
+ } 
+ .display-5{
+text-align: left;
+padding: 20px;
+margin-left: 7px;
+color: white;
+ } 
+ .abt{
+     border: 1px solid white;
+     display: block;
+     margin: 0 auto;
+     padding: 5px;   
+ } /*about*/ 
+ .pic{
+display: flex;
+background-color: black;
+            margin-left: auto; 
+          float: left;
+          margin-top: 30px;
+          align-items: center;
+}
+.pic .section{
+    margin-top: 10px;
+            width: 50%;
+            padding: 10px;
+           
+            font-size: 20px;          
+}
+
+.skill {
+    display: flex;
+  width: 33.33%;
+  padding: 5px;
+}
+.skill .tools {
+   margin: 20px;
+}
+/*service*/
+.serve1{
+display: flex;
+background-color: white;
+            margin-left: 10px; 
+        margin-right: 10px;
+          text-align: center;
+          
+}
+.serve1 .serve2{
+    margin-top: 5px;
+            width: 100%;
+            padding: 10px;
+            font-size: 20px;   
+            
+}  
+.pbtn{
+    color: black;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+}
+/*contact*/  
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.contact{
+    display: flex;
+    background-color: white;
+  
+}
+.contact .box{
+    margin: 15px;
+    padding: 10px;
+  
+}
+.btn{
+    background-color:black;
+    color: white;
+    border: none;
+    padding: 15px;
+    margin: 20px;
+}
+   </style>
+</head>
+
+
+<body>
+   <div class="navbar">
+       <ul>
+           <li><a href="Home.html"> Home</a></li>
+           <li><a href="#about">About</a></li>
+           <li><a href="#service">Services</a></li>
+           <li><a href="#Contact">Contact Me</a></li>
+       </ul>
+   </div>
+
+<div>
+  <img src="profile.jpeg" alt="sapna" style="border-radius: 50%; float: right; padding: 120px;"><!--border radius 50% is used for rounded img-->
+</div>
+<div>
+<!--<h1 class="display-1">Hello!</h1>-->
+<h2 class="display-3"> I am Sapna,</h2>
+<h3 class="display-5">A Web  Desinger </h3>
+</div>
+<p style="color: rgb(189, 187, 187); text-align: left; margin-left: 20px;">Focused on clean  & User friendly experiences.
+     I am passinate about building excellent websites that improve the lives of those around me. 
+    </p><br>
+<a href="Resume.pdf">
+     <button class="abt">Download CV</button></a>
+     <!--ABOUT-->
+<div id="about">
+    <div class="pic">
+        <div class="section">
+        <img src="about me.jpeg" alt="abc">
+    </div>
+    <div  style="color: white;" class="section">
+    Web Designer. bron in UP, raised in Punjab, based in Maharastra.
+    "Helping Companies to reach their goal by connecting all dots between Design & Code."
+    </div>
+    </div>
+    <div style="color: white; font-size:20px; padding-top: 170px; text-align: center;">
+        <strong>WHO I AM?</strong>
+    </div>
+  
+    <div style="color: white; font-size: 12px; padding-top: 10px; word-spacing: 1px; margin-left: 9px;">
+        My name is Sapna. I have done my <b> B.sc (C.Sc) </b>from GCG-42 Chandigarh.
+        A bright, talented, ambitious and self-motivated web designer with a strong technical background who possesses self-discipline and the ability to work with the minimum of supervision. A good team player, who thrives on creating engaging creative solutions, is deadline orientated and has the ability to produce detailed technical specifications from client requirements. A quick learner, who can absorb new ideas and can communicate clearly and effectively.
+         Currently looking for a opportunity to join a dynamic, ambitious, growing company and forge a career as a website designer.
+        <br><b style="color: white; font-size: 16px;"><br><br> y</b>es, i am fresher but every fresher gets a chance to gain experience. 
+        </div>
+        <br><h3 style="color: white; margin-left: 9px;"> My Skills and Tools</h3>
+  <div class="skill">
+<div class="tools">
+  <img src="img\html.png" alt="pics" style="height: 50px; width: 50px;">  
+</div>
+<div class="tools">
+  <img src="img\css.png" alt="pics" style="height: 50px; width: 50px;">  
+</div>
+<div class="tools">
+   <img src="img\js.png" alt="pics" style="height:50px; width: 50px;"> 
+</div>
+<div class="tools">
+  <img src="img\Bootstrap.png" alt="pics" style="height: 50px; width: 50px;">  
+</div>
+<div class="tools">
+   <img src="img\ps.png" alt="pics" style="height:50px; width: 50px;"> 
+</div>
+<div class="tools">
+  <img src="img\illustrator.png" alt="pics" style="height: 50px; width: 50px;">  
+</div>
+<div class="tools">
+    <img src="img\xd.png" alt="pics" style="height: 50px; width: 50px;">  
+  </div>
+  <div class="tools">
+    <img src="img\wp.png" alt="pics" style="height: 50px; width: 50px;">  
+  </div>
+  <div class="tools">
+    <img src="img\wix.png" alt="pics" style="height: 50px; width: 50px;">  
+  </div>
+  </div>
+    <section style="color: white; font-size: 12px; padding-top: 10px; word-spacing: 2px; margin-left: 9px;">
+       <br> I use HTML, CSS, and JavaScript to produce responsive websites and web apps that provide users the best and most appropriate experience suited to their device and browser. Being a diligent, hardworking and result oriented lady, I always work towards achieving best result I lay my hands on.
+   it is important to understand both design and development to achieve a successful user-facing product.
+</section></div>
+<!--SERVICES-->
+<div id="service">
+<div class="serve">
+    <p style="color: white; text-align:center; padding-top: 80px; font-size: 20px;">-What I Provide-</p>
+    <div class="serve1">
+     <div class="serve2">
+         <p style="color: black;"><b> WEB DESIGN </b></p>
+ 
+ I can desing a creative websites in a minimalistic way and give them a clean look so that the user can easily relate to them.
+     </div>
+     <div class="serve2">
+         <p style="color: black;"><b>GRAPHICS DESIGN </b></p>
+ With the help of Photoshop and Illustrator i can desing Social media creative, magazine cover, branding, web banner and much more.
+     </div>
+     <div class="serve2">
+         <p style="color: black;"><b> UI/UX DESIGN </b></p>
+ With the help of XD and Figma i can create wireframes, prototypes, and finished designs using a single application.
+     </div>
+    </div>
+ </div><br><br>
+ <p style="color: white; font-size: 16px; margin-left: 9px;"><strong>My Personal Project-</strong> </p>
+</div>
+<div >
+    <p style="color: white; margin-left: 9px; "> Project Name- Shree Bridal Makeover & Acedemy  <br>
+    I have developed a website for bridal makeover and learning acedemy where any one can learn makeup and gets their own makeover. In this there are all type of makeup like bridal( haldi ,sangeet and mehendi ) and party makeup. 
+    I use html and css to develope this website also used java script to give dynamic changes in it.</p> <br>
+<a href="makeup\home.html"><button class="pbtn">View Project </button></a>
+</div>
+<div>
+    <p style="color: white; margin-left: 9px; "> Project Name- Bandhan  <br>
+        I have create a website (Bandhan) where we can plan a wedding of your loved once. I use Adobe illustrator
+    for logo design and WORDPRESS for creating the website. <br>
+<a href=" http://sapna1.epizy.com "><button> Bandhan</button></a> </p> 
+</div>
+
+
+<!--Contact Details-->
+<div id="Contact">
+    <div style="color: rgb(252, 252, 252); padding-top: 30px; font-size: 16px; text-align:center;">
+        <b>Get In Touch </b> 
+     </div>
+     <br><p style="color: rgb(165, 161, 161); text-align: center;">Dropping a line to say good day, ask for my resume or see if
+        we can build something amazing together?  I'd love to hear from you!
+    <br><br>
+        Fill in your info in the form below and i look forward to hearing from you. <br><br></p> 
+     <div class="contact">
+        <div  class="box" style="padding-top: 200px; ">
+            <h2>You Got A Problem To Solve?</h2> 
+            <p style="color: rgb(165, 161, 161);"> Get your space suit ready  and let me your ideas to develope your dream application.....
+       <br><br>Email- guptasapna2517@gmail.com <br><br>Contact No- +919049667486</p>
+        </div>
+    
+         <div    class="box">
+    <form action="" style="border: rgb(8, 1, 0) 1px solid; border-width: 2px; padding: 20px;">
+        <label for="fname"><b> Name</b><br></label>
+        <input type="text" id="fname" name="fname" value="John"><br><br><br>
+        <label for="email"><b>E-mail</b><br></label>
+        <input type="email" id="mail" name="mail" value="email"><br><br>
+        <br><br><textarea name="Your Message" id="msg" cols="30" rows="10">Your Message</textarea>
+        <br><br>
+        <button onclick="alert(x)" class="btn">Hit me up</button>
+    </form>
+     </div>
+    </div>
+    <script>
+        let x="Thanks for calling us. We will contact you soon.";
+      </script>
+
+</div>
+</body>
+</html>
